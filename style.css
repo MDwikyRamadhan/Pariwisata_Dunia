@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Work Sans', sans-serif;
+}
+
+:root{
+  --primary-color:#ff7f47;
+}
+
+.orange{
+  color: var(--primary-color);
+}
+/* Container2 */
+.container2{
+  background-image: url(620b451d668b3373065297\(2\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+}
+button:hover{
+  background-color: var(--primary-color);
+  color: white;
+  border: 1px solid;
+}
